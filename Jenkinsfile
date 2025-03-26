@@ -2,11 +2,11 @@ pipeline {
   agent any
 
   stages {
-    stae('Build') {
+    stage('Build') {
       steps {
         script {
 
-          sh 'g++ -o PES1UG22CS452-1 hello1.cpp'
+          sh 'g++ -o PES1UG22CS452-1 helo1.cpp'
 
         }
       }
